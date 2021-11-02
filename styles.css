@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Francois+One&display=swap");
+
+:root {
+  --clr-primary: #965623;
+  --clr-brown: #a5704e;
+  --clr-darkbrown: #40342c;
+  --clr-white: #fff;
+  --clr-black: #000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*======== Global Styles =========*/
+
+body {
+  font-family: "Teko", sans-serif;
+  line-height: 1.7;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+}
+
+h1,
+h2,
+h4,
+p {
+  letter-spacing: 0.2ch;
+  font-weight: 100;
+}
+
+p {
+  font-weight: 100;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--clr-black);
+  font-size: 24px;
+  padding: 0.5rem;
+  display: block;
+}
+
+nav a:hover {
+  border-bottom: 4px solid var(--clr-primary);
+}
+
+.row {
+  display: flex;
+  justify-content: space-around;
+}
+
+/*======== HEADER SECTION =========*/
+
+.header {
+  text-align: center;
+  margin-top: 1.3rem;
+}
+
+.header p {
+  font-size: 24px;
+}
+
+.header img {
+  width: 40%;
+}
+
+.header .title {
+  font-size: 40px;
+  margin-top: 3rem;
+  color: var(--clr-primary);
+  font-family: "Francois One", sans-serif;
+}
+
+.header .title span {
+  color: var(--clr-darkbrown);
+}
+
+span {
+  color: var(--clr-primary);
+}
+
+/*======== ABOUT SECTION =========*/
+
+.about {
+  padding-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+.aboutCol {
+  border: 4px solid var(--clr-primary);
+  padding: 1rem;
+  width: 40%;
+  font-size: 18px;
+  font-weight: 200;
+  position: relative;
+}
+
+.titleAbout,
+.boldText {
+  font-size: 35px;
+  margin-bottom: 1rem;
+}
+
+.boldText {
+  margin-top: 1rem;
+}
+
+.about img {
+  position: absolute;
+  margin-top: 5.5rem;
+  right: 200px;
+  width: 30%;
+}
+
+/*======== NEWLETTERS SECTION =========*/
+
+.newsLetter {
+  margin: auto;
+  padding: 4rem;
+  text-align: center;
+  color: var(--clr-white);
+  background-color: var(--clr-black);
+}
+
+.newsLetter .sectionTitle {
+  font-weight: 400;
+  font-size: 35px;
+}
+
+.newsLetter .form {
+  margin-top: 1.88rem;
+}
+
+.newsLetter .form input[type="email"] {
+  padding: 0.5rem;
+  width: 26%;
+  border: none;
+}
+
+.newsLetter button[type="submit"] {
+  padding: 0.4rem;
+  width: 7%;
+  border: none;
+  background-color: var(--clr-brown);
+  color: var(--clr-white);
+  font-family: inherit;
+  font-size: 13px;
+}
+
+/*======== COFFEES SECTION =========*/
+
+.coffePics {
+  margin: auto;
+  width: 80%;
+}
+
+.coffePics .grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.coffePics img {
+  width: 90%;
+  border-radius: 1rem;
+}
+
+/*======== GET IN TOUCH SECTION =========*/
+
+.contactForm {
+  padding-top: 4rem;
+  margin-bottom: 4rem;
+}
+
+.rowContact {
+  display: flex;
+  justify-content: center;
+}
+
+/* LEFT COLUMN STYLES */
+
+.leftCol {
+  background-color: var(--clr-black);
+  color: var(--clr-white);
+  padding: 1.89rem;
+}
+
+.leftCol h2 {
+  margin-top: 1.45rem;
+}
+
+.leftCol .time {
+  font-size: 14px;
+  margin-top: 0.89rem;
+}
+
+.leftCol address {
+  font-style: normal;
+  margin-top: 0.9rem;
+}
+
+/* RIGHT COLUMN STYLES */
+.rightCol {
+  border: 3px solid var(--clr-black);
+  padding: 3rem;
+}
+
+.rightCol .getInForm {
+  margin-top: 2rem;
+}
+
+.rightCol .formBloc {
+  display: flex;
+  flex-direction: column;
+}
+
+.rightCol .getInForm button {
+  border: none;
+  background-color: var(--clr-brown);
+  color: var(--clr-white);
+  padding: 0.4rem;
+}
+
+.rightCol label {
+  margin-right: 0.89rem;
+}
+
+.rightCol textarea {
+  resize: none;
+}
+
+/*======== CONTACT SECTION =========*/
+
+.contact {
+  margin: auto;
+  background-color: var(--clr-black);
+  color: var(--clr-white);
+  text-align: center;
+  padding: 2rem;
+}
+
+.contact .sectionTitle {
+  font-weight: 100;
+  margin-bottom: 2rem;
+}
+
+.contact .logo {
+  font-size: 20px;
+}
+
+.socialMedia {
+  padding-bottom: 2rem;
+}
+
+.socialMedia i {
+  color: var(--clr-white);
+}
+
+.socialMedia {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+}
+
+/*======== FOOTER SECTION =========*/
+
+footer {
+  background-color: var(--clr-brown);
+  color: var(--clr-white);
+  text-align: center;
+  padding: 0.4rem;
+}
