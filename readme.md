@@ -1,8 +1,6 @@
 <!-- Add banner here -->
 
-### Project Title
-
-Frontend Developement - Coffee Website
+### Frontend Developement - Coffee Website
 
 <!-- Describe your project in brief -->
 
