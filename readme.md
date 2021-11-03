@@ -7,7 +7,7 @@
 - [Overview](#overview)
   - [Project Screenshot](#screenshot)
   - [Links](#links)
-- [Process](#process)
+- [Description](#description)
 - [Author](#author)
 
 ### Project Screenshot
@@ -19,7 +19,7 @@
 
 [(Back to top)](#table-of-contents) -->
 
-# Process
+# Project Description
 
 [(Back to top)](#table-of-contents)
 
@@ -29,3 +29,4 @@ This website was built using
 - CSS Custom Properties
 - CSS Flexbox
 - CSS Grids
+- CSS Forms
