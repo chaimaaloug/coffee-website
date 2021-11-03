@@ -23,7 +23,7 @@
 
 [(Back to top)](#table-of-contents)
 
-###This website was built using
+This website was built using
 
 - Semantic HTML5 Markup
 - CSS Custom Properties
