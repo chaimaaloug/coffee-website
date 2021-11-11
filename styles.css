@@ -281,3 +281,110 @@ footer {
   text-align: center;
   padding: 0.4rem;
 }
+
+/*======== Media Query =========*/
+
+@media screen and (max-width: 360px) {
+  body {
+    font-size: 14px;
+  }
+  .header .row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header nav {
+    font-size: 16px !important;
+  }
+
+  .header .textBox p {
+    font-size: 20px;
+  }
+
+  .header img {
+    width: 100%;
+  }
+
+  .about {
+    padding: 1.9rem;
+  }
+
+  .aboutCol {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 200;
+  }
+
+  .about .titleAbout {
+    font-size: 26px;
+  }
+
+  .about .boldText {
+    font-size: 28px;
+  }
+
+  .about .row {
+    flex-direction: column;
+  }
+
+  .about img {
+    display: none;
+  }
+
+  .newsLetter .sectionTitle {
+    font-size: 24px;
+  }
+
+  .newsLetter p {
+    padding-top: 1rem;
+  }
+  .newsLetter .form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form input[type="email"],
+  .form button[type="submit"] {
+    width: 100% !important;
+  }
+
+  .form input[type="email"] {
+    margin-bottom: 1rem;
+  }
+
+  .contactForm {
+    padding: 2rem;
+  }
+
+  .contactForm .leftCol {
+    text-align: center;
+  }
+
+  .rowContact {
+    flex-direction: column;
+  }
+
+  .contact {
+    font-size: 12px;
+  }
+
+  .contact .logo {
+    text-align: center;
+  }
+
+  .contact .row {
+    flex-direction: column;
+  }
+
+  .contact .row p {
+    display: none;
+  }
+
+  .contact .socialMedia {
+    justify-content: space-around;
+  }
+
+  .coffePics .grid {
+    grid-template-columns: 1fr;
+  }
+}
